@@ -1,9 +1,17 @@
 <template>
     <div id="grid">
+        <ServerList />
     </div>
 </template>
 
 <script>
+import ServerList from "./ServerList/index.vue";
+
+export default {
+    components: {
+        ServerList
+    }
+}
 </script>
 
 <style scoped>
